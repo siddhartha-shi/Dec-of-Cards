@@ -31,7 +31,8 @@ public class Dec {
 		Random random = new Random();
 		List<Card> shuffled = Card.newDeck();
 		for (int i = shuffled.size() - 1; i >= 0; i--) {
-		    int j = random.nextInt(i + 1);
+//		    int j = random.nextInt(i + 1);
+			int j = random.nextInt(shuffled.size() - 1);
 		    
 		    /* swap cards i,j */
 		    Card card = shuffled.get(i);
