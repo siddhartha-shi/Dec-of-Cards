@@ -3,6 +3,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Dec {
+	
 	private static ArrayList<Card> deCards = Card.newDeck();
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
