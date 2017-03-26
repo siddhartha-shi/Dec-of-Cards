@@ -9,5 +9,6 @@ public class Dec {
 		int c;
 		c = a*b;
 		System.out.println(c);
+		System.out.println("Now it is in git!");
 	}
 }
